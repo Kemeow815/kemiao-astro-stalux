@@ -4,32 +4,32 @@ export const site: SiteConfig = {
   /**
    * 核心站点信息
    */
-  title: 'Stalux博客主题',
-  titleDefault: 'Stalux博客主题',
-  siteName: 'Stalux博客主题',
-  author: 'xingwangzhe',
+  title: '喵落阁',
+  titleDefault: '喵落阁',
+  siteName: '喵落阁',
+  author: '克喵爱吃卤面',
   
   /**
    * SEO 核心配置
    */
-  description: '博客主题Stalux - 为内容创作者提供的专业展示平台，支持多种自定义功能，包含评论系统集成、友情链接管理、社交媒体分享和丰富的SEO优化选项，让您的内容更具吸引力和可发现性。',
-  url: 'https://stalux.needhelp.icu',
-  keywords: 'Stalux, 博客主题, 内容创作, Astro主题, 静态网站生成器, SEO优化, 自定义博客, 响应式设计, 评论系统, 前端开发, Astro',
+  description: '克喵的博客',
+  url: 'https://blog-v8.kemiaosw.top',
+  keywords: 'Stalux, 博客, 克喵, Astro',
   lang: 'zh-CN',
   locale: 'zh_CN',
-  canonical: 'https://stalux.needhelp.icu',
+  canonical: 'https://blog-v8.kemiaosw.top',
 
   /**
    * 站点资源配置
    */
-  favicon: '',
-  avatarPath: '',
+  favicon: 'https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256',
+  avatarPath: 'https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256',
   
   /**
    * <head>元素硬嵌入
    */
   head: `<meta name="nishia" content="nihaiso">
-        <script>console.log("欢迎使用Stalux主题")</script>`,
+        <script>console.log("喵落阁")</script>`,
 
   /**
    * 站点导航配置
@@ -47,10 +47,10 @@ export const site: SiteConfig = {
    * 站点特效配置
    */
   textyping: [
-    'Free for free, not free for charge!',
-    '任意键在哪?',
+    '欢迎来到克喵的博客!',
+    '希望你能在这里找到有趣的内容~',
     'F12看看?',
-    'Hello World!'
+    'Hello everyone!'
   ],
 
   /**
@@ -58,7 +58,7 @@ export const site: SiteConfig = {
    */
   comment: {
     waline: {
-      serverURL: 'https://waline.xingwangzhe.fun', // 你的Waline服务器地址 //我加白名单了,别让我在日志里逮到你用(╯▔皿▔)╯
+      serverURL: 'https://waline-stalux.314926.xyz', // 你的Waline服务器地址 //我加白名单了,别让我在日志里逮到你用(╯▔皿▔)╯
       lang: 'zh-CN', // 语言设置
       emoji: ['https://unpkg.com/@waline/emojis@1.1.0/weibo'], // 表情包设置
       requiredFields: [], // 必填项
@@ -73,20 +73,20 @@ export const site: SiteConfig = {
    * 社交媒体链接配置
    */
   medialinks: [
-    { title: 'Github', url: 'https://github.com/xingwangzhe/stalux', icon: 'github' },
-    { title: 'Bilibili', url: 'https://space.bilibili.com/', icon: 'bilibili' },
-    { title: 'Twitter', url: 'https://x.com/', icon: 'x-twitter' },
-    { title: 'Weibo', url: 'https://weibo.com/', icon: 'sinaweibo' },
-    { title: 'QQ', url: 'https://qm.qq.com/', icon: 'qq' },
-    { title: 'Telegram', url: 'https://t.me/', icon: 'telegram' },
-    { title: 'Discord', url: 'https://discord.gg/', icon: 'discord' },
+    { title: 'Github', url: 'https://github.com/Kemeow815', icon: 'github' },
+    { title: 'Bilibili', url: 'https://space.bilibili.com/3546643173477234', icon: 'bilibili' },
+    { title: 'Twitter', url: 'https://x.com/kemiaosw', icon: 'x-twitter' },
+    // { title: 'Weibo', url: 'https://weibo.com/', icon: 'sinaweibo' },
+    { title: 'QQ', url: 'https://qm.qq.com/q/J9VDiX6KoS', icon: 'qq' },
+    { title: 'Telegram', url: 'https://t.me/KemiaoJun', icon: 'telegram' },
+    { title: 'Music', url: 'https://music.163.com/#/user/home?id=1725716511', icon: 'neteasecloudmusic' },
   ],
 
   /**
    * 友情链接配置
    */
-  friendlinks_title: '帮助链接',
-  friendlinks_description: '下列站点对本主题的开发起到了关键作用,非常感谢它们的资料',
+  friendlinks_title: '友链',
+  friendlinks_description: '下面是我喜欢的朋友们的链接，欢迎访问他们的博客！',
   friendlinks: [
     {
       title: 'Astro',
@@ -126,12 +126,12 @@ export const site: SiteConfig = {
    */
   footer: {
     // 站点构建时间，用于计算运行时长
-    buildtime: '2025-05-01T10:00:00', // 站点构建时间，推荐使用ISO 8601标准格式(YYYY-MM-DDTHH:MM:SS)
+    buildtime: '2025-06-21T22:00:00', // 站点构建时间，推荐使用ISO 8601标准格式(YYYY-MM-DDTHH:MM:SS)
 
     // 版权信息
     copyright: {
       enabled: true, // 是否启用版权信息
-      startYear: 2024, // 可选：起始年份，如设置为2024，则显示2024-2025
+      startYear: 2025, // 可选：起始年份，如设置为2024，则显示2024-2025
       customText: '' // 可选：自定义版权文本，如为空则使用默认格式
     },
 
@@ -164,7 +164,7 @@ export const site: SiteConfig = {
         color: 'red',
         style: 'for-the-badge',
         alt: 'Built with Love',
-        href: 'https://github.com/xingwangzhe'
+        href: 'https://github.com/Kemeow815'
       },
       {
         label: 'Powered by',
@@ -216,13 +216,13 @@ export const site: SiteConfig = {
         alt: '空间穿梭-随机访问BlogsClub成员博客',
         href: 'https://www.blogsclub.org/go'
       },
-      {
-        label: '多吉云',
-        message: 'CDN',
-        color: 'lightblue',
-        alt: '多吉云CDN',
-        href: 'https://www.dogecloud.com/?iuid=11702'
-      },
+      // {
+      //   label: '多吉云',
+      //   message: 'CDN',
+      //   color: 'lightblue',
+      //   alt: '多吉云CDN',
+      //   href: 'https://www.dogecloud.com/?iuid=11702'
+      // },
       {
         label: '十年之约',
         message: '',
