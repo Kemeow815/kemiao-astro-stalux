@@ -13,11 +13,11 @@ export const site: SiteConfig = {
    * SEO 核心配置
    */
   description: '克喵的博客',
-  url: 'https://blog-v8.kemiaosw.top',
+  url: 'https://blog.050815.xyz',
   keywords: 'Stalux, 博客, 克喵, Astro',
   lang: 'zh-CN',
   locale: 'zh_CN',
-  canonical: 'https://blog-v8.kemiaosw.top',
+  canonical: 'https://blog.050815.xyz',
 
   /**
    * 站点资源配置
@@ -95,10 +95,10 @@ export const site: SiteConfig = {
       description: 'The web framework for content-driven websites'
     },
     {
-      title: 'Vue',
-      url: 'https://cn.vuejs.org/',
-      avatar: 'https://cn.vuejs.org/logo.svg',
-      description: '易学易用，性能出色，适用场景丰富的 Web 前端框架。'
+      title: '纸鹿摸鱼处',
+      url: 'https://blog.zhilu.cyou/',
+      avatar: 'https://www.zhilu.cyou/api/avatar.png',
+      description: '纸鹿至麓不知路，支炉制露不止漉'
     },
     {
       title: 'MDN Web Docs',

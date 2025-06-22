@@ -358,7 +358,7 @@ code: {
 }
 ```
 
-#### Waline 评论系统配置
+####  评论系统配置
 
 ```typescript
 waline: {
