@@ -96,10 +96,10 @@ export const site: SiteConfig = {
       description: 'The web framework for content-driven websites'
     },
     {
-      title: '纸鹿摸鱼处',
-      url: 'https://blog.zhilu.cyou/',
-      avatar: 'https://www.zhilu.cyou/api/avatar.png',
-      description: '纸鹿至麓不知路，支炉制露不止漉'
+      title: 'Vue',
+      url: 'https://cn.vuejs.org/',
+      avatar: 'https://cn.vuejs.org/logo.svg',
+      description: '易学易用，性能出色，适用场景丰富的 Web 前端框架。'
     },
     {
       title: 'MDN Web Docs',
@@ -118,6 +118,102 @@ export const site: SiteConfig = {
       url: 'https://feathericons.com/',
       avatar: 'https://feathericons.com/favicon.ico',
       description: 'Beautifully simple open-source icons'
+    },
+    {
+      title: 'Lily Ellenvia',
+      url: 'https://blog.lilynet.work',
+      avatar: 'https://avatars.githubusercontent.com/u/118451956?v=4',
+      description: '喜歡睡覺的普通人'
+    },
+    {
+      title: '夜梦星尘の折腾日记',
+      url: 'https://tech.yemengstar.com/',
+      avatar: 'https://tech.yemengstar.com/wp-content/uploads/2024/04/cropped-yemenglogoNEW-32x32.png',
+      description: '眼底星河荡漾，踏着梦走过时光。'
+    },
+    {
+      title: '浪海导航',
+      url: 'https://www.langhai.net/',
+      avatar: 'https://www.langhai.net/assets/images/langhai-logo.png',
+      description: '浪海导航 ~ 收录各种类型的博客以及论坛网站'
+    },
+    {
+      title: '琼西往事',
+      url: 'https://fushaolei.fun/',
+      avatar: 'https://cdn.jsdelivr.net/gh/fushaolei/img/20200524104925.jpg',
+      description: 'Do Not Be Sorry, Be Better'
+    },
+    {
+      title: '龙腾收录网',
+      url: 'https://dh.lt6.ltd/',
+      avatar: 'https://dh.lt6.ltd/favicon.ico',
+      description: '我们致力于为广大站长提供一个纯净的精品网站收录,在龙腾收录网可互换友情链接，增加彼此网站曝光度!'
+    },
+    {
+      title: 'ksh',
+      url: 'https://ksh7.com/',
+      avatar: 'https://ksh7.com/img/avatar.webp',
+      description: 'Life Oriented Programming'
+    },
+    {
+      title: 'Admibrill',
+      url: 'https://blog.qyadbr.top/',
+      avatar: 'https://source-admibrill.pages.dev/file/f69c9c86b22cb90df18a1.png',
+      description: '有志者，事竟成。'
+    },
+    {
+      title: '纸鹿摸鱼处',
+      url: 'https://blog.zhilu.cyou/',
+      avatar: 'https://www.zhilu.cyou/api/avatar.png',
+      description: '纸鹿至麓不知路，支炉制露不止漉'
+    },
+    {
+      title: '大佬论坛',
+      url: 'https://www.dalao.net/',
+      avatar: 'https://www.dalao.net/upload/attach/202410/1_1728884298539.webp',
+      description: '站长论坛，互联网站长综合交流，十年之约合作论坛'
+    },
+    {
+      title: 'BlogFinder',
+      url: 'https://bf.zzxworld.com/',
+      avatar: 'https://bf.zzxworld.com/images/favicon.png',
+      description: '每个博客都是一座宝藏'
+    },
+    {
+      title: '浩瀚星河',
+      url: 'https://haohanxinghe.com',
+      avatar: 'https://haohanxinghe.com/assets/images/avatar.webp',
+      description: '代码，日常，生活'
+    },
+    {
+      title: '清羽飞扬',
+      url: 'https://blog.liushen.fun/',
+      avatar: 'https://blog.liushen.fun/info/avatar.ico',
+      description: '柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜'
+    },
+    {
+      title: '时歌的博客',
+      url: 'https://www.lapis.cafe/',
+      avatar: 'https://www.lapis.cafe/_astro/avatar.exAKhE7w_1xwha6.webp',
+      description: '理解以真实为本，但真实本身并不会自动呈现'
+    },
+    {
+      title: '懋和道人',
+      url: 'https://www.dao.js.cn/',
+      avatar: 'https://img.dao.js.cn/zb_users/upload/2021/10/202110151634246697912592.png-webp',
+      description: '李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。'
+    },
+    {
+      title: '拾柒',
+      url: 'https://www.s17.cn',
+      avatar: 'https://www.s17.cn/logo.png',
+      description: '奇奇怪怪。'
+    },
+    {
+      title: '洛屿的小站',
+      url: 'https://www.drluo.top/',
+      avatar: 'https://www.drluo.top/img/avatar.webp',
+      description: '嗨，靓仔，今天也要有个好心情哦！'
     }
   ],
 
