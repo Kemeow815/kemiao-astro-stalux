@@ -28,8 +28,7 @@ export const site: SiteConfig = {
   /**
    * <head>元素硬嵌入
    */
-  head: `<meta name="nishia" content="nihaiso">
-        <script>console.log("喵落阁")</script>`,
+  head: `<meta name="google-site-verification" content="udvo-pqn-XT_i_r8B4NUXcmbVUYvovkFioPJ59x_vqI" />`,
 
   /**
    * 站点导航配置 图标来自: https://feathericons.com
