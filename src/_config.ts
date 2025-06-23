@@ -5,33 +5,33 @@ export const siteConfig: SiteConfig = {
   /**
    * 基础站点信息
    */
-  title: '', // 注意：此处为空，但保留字段
-  titleDefault: '姓王者的博客', // 默认标题，当没有指定标题时使用
-  siteName: '姓王者的博客', // 站点名称，用于品牌构建  
-  author: 'xingwangzhe', // 内容创作者信息
-    /**
-   * 站点资源配置
-   * 用户体验相关，间接提升SEO价值
-   */
-  favicon: '/favicon.ico', // 网站图标和iOS设备添加到主屏的图标
-  avatarPath: 'src/images/avatar.webp', // 用户头像路径
+  title: '喵落阁',
+  titleDefault: '喵落阁',
+  siteName: '喵落阁',
+  author: '克喵爱吃卤面',
+  
   /**
    * SEO 核心配置
-   * 这些配置对搜索引擎优化至关重要
    */
-  description: '探索、学习、进步、创造无限可能！姓王者的博客致力于分享前端开发技术，包括JavaScript、TypeScript、Vue等web开发知识。作为计算机科学与技术专业的博主，我相信终身学习的价值，这里记录了我的技术成长历程、实用教程和开发心得，希望能为大家提供有价值的参考和启发。可以不会，但不能不学！', // 网站描述，建议150-160字符以获得最佳SEO效果
-  url: 'https://xingwangzhe.fun', // 完整网站URL(包含https协议)
-  lang: 'zh-CN', // 语言设置，有助于地区搜索引擎理解内容
-  locale: 'zh_CN', // 内容的区域设置
-  keywords: 'Stalux, 博客主题, 内容创作, Astro主题, 静态网站生成器, SEO优化, 自定义博客, 响应式设计, 评论系统, 前端开发, Astro,ts,js', // 网站关键词，建议使用相关性高的长尾关键词组合
-  canonical: 'https://xingwangzhe.fun', // 规范链接，防止重复内容
+  description: '或许，这对我们来说，只是一个选择。',
+  url: 'https://blog.050815.xyz',
+  keywords: 'Stalux, 博客, 克喵, Astro',
+  lang: 'zh-CN',
+  locale: 'zh_CN',
+  canonical: 'https://blog.050815.xyz',
+
+  /**
+   * 站点资源配置
+   */
+  favicon: 'https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256',
+  avatarPath: 'https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256',
 
   /**
    * <head>元素硬嵌入
    * 可以在此处添加自定义的meta标签、脚本、样式等
    */
   head: `
-  <script>console.log('我是姓王者')</script>
+  <script>console.log('克喵爱吃卤面')</script>
   `,
 
   
@@ -44,27 +44,32 @@ export const siteConfig: SiteConfig = {
     { title: '分类', path: '/categories', icon: 'folder' },
     { title: '标签', path: '/tags', icon: 'tag' },
     { title: '友链', path: '/links', icon: 'link' },
-    { title: '关于', path: '/about', icon: 'user' },
+    { title: '朋友圈', path: 'https://pyq.kemiao.online', icon: 'WeChat' },
+    { title: '相册', path: 'https://photo.kemiao.xyz', icon: 'googleclassroom' },
+    { title: '关于', path: '/about', icon: 'user' }
   ],
 
   /**
    * 站点特效配置
    */
   textyping: [
-    'Free for free, not free for charge!',
-    '任意键在哪?',
+    '欢迎来到克喵的博客!',
+    '希望你能在这里找到有趣的内容~',
     'F12看看?',
-    'Hello World!',
+    'Hello everyone!'
   ],
 
   /**
    * 社交媒体链接配置
    */
   medialinks: [
-    { title: 'Github', url: 'https://github.com/xingwangzhe', icon: 'github' },
-    { title: 'Bilibili', url: 'https://space.bilibili.com/1987297874', icon: 'bilibili' },
-    { title: 'QQ', url: 'https://wpa.qq.com/msgrd?v=3&uin=2098422920&site=qq&menu=yes', icon: 'qq' },
-    { title: 'eMail', url: 'mailto:xingwangzhe@outlook.com', icon: 'maildotru' }
+    { title: 'Github', url: 'https://github.com/Kemeow815', icon: 'github' },
+    { title: 'Bilibili', url: 'https://space.bilibili.com/3546643173477234', icon: 'bilibili' },
+    { title: 'Twitter', url: 'https://x.com/kemiaosw', icon: 'x-twitter' },
+    // { title: 'Weibo', url: 'https://weibo.com/', icon: 'sinaweibo' },
+    { title: 'QQ', url: 'https://qm.qq.com/q/J9VDiX6KoS', icon: 'qq' },
+    { title: 'Telegram', url: 'https://t.me/KemiaoJun', icon: 'telegram' },
+    { title: 'Music', url: 'https://music.163.com/#/user/home?id=1725716511', icon: 'neteasecloudmusic' },
   ],
 
   /**
@@ -72,7 +77,7 @@ export const siteConfig: SiteConfig = {
    */
   comment: {
     waline: {
-      serverURL: 'https://waline.xingwangzhe.fun', // 你的Waline服务器地址
+      serverURL: 'https://waline-stalux.314926.xyz', // 你的Waline服务器地址
       lang: 'zh-CN', // 语言设置
       emoji: ['https://unpkg.com/@waline/emojis@1.1.0/weibo'], // 表情包设置
       requiredFields: [], // 必填项
@@ -162,6 +167,12 @@ export const siteConfig: SiteConfig = {
       description: '有志者，事竟成。'
     },
     {
+      title: '纸鹿摸鱼处',
+      url: 'https://blog.zhilu.cyou/',
+      avatar: 'https://www.zhilu.cyou/api/avatar.png',
+      description: '纸鹿至麓不知路，支炉制露不止漉'
+    },
+    {
       title: '大佬论坛',
       url: 'https://www.dalao.net/',
       avatar: 'https://www.dalao.net/upload/attach/202410/1_1728884298539.webp',
@@ -216,12 +227,12 @@ export const siteConfig: SiteConfig = {
    */
   footer: {
     // 站点构建时间，用于计算运行时长
-    buildtime: '2024-06-20T10:00:00+8:00', // 站点构建时间，推荐使用ISO 8601标准格式(YYYY-MM-DDTHH:MM:SS+x:00)默认东八区
+    buildtime: '2025-06-21T22:00:00', // 站点构建时间，推荐使用ISO 8601标准格式(YYYY-MM-DDTHH:MM:SS)
 
     // 版权信息
     copyright: {
       enabled: true, // 是否启用版权信息
-      startYear: 2024, // 可选：起始年份，如设置为2024，则显示2024-2025
+      startYear: 2025, // 可选：起始年份，如设置为2024，则显示2024-2025
       customText: '' // 可选：自定义版权文本，如为空则使用默认格式
     },
 
@@ -254,7 +265,7 @@ export const siteConfig: SiteConfig = {
         color: 'red',
         style: 'for-the-badge',
         alt: 'Built with Love',
-        href: 'https://github.com/xingwangzhe'
+        href: 'https://github.com/Kemeow815'
       },
       {
         label: 'Powered by',
@@ -269,20 +280,14 @@ export const siteConfig: SiteConfig = {
         message: 'Stalux',
         color: 'blueviolet',
         alt: 'Theme: Stalux',
-        href: 'https://stalux.needhelp.icu/'
+        href: 'https://github.com/xingwangzhe/stalux'
       },
       {
         label: 'license',
         message: 'MIT',
         color: 'blue',
         alt: 'License: MIT',
-        href: 'https://github.com/xingwangzhe/stalux'
-      },
-      {
-        label: '阿里云',
-        message: '服务器',
-        alt: '阿里云支持',
-        href: 'https://www.aliyun.com/minisite/goods?userCode=lmvvqvl9'
+        href: 'https://github.com/xingwangzhe/stalux/blob/main/LICENSE'
       },
       {
         label: '开往🚆',
@@ -312,13 +317,13 @@ export const siteConfig: SiteConfig = {
         alt: '空间穿梭-随机访问BlogsClub成员博客',
         href: 'https://www.blogsclub.org/go'
       },
-      {
-        label: '多吉云',
-        message: 'CDN',
-        color: 'lightblue',
-        alt: '多吉云CDN',
-        href: 'https://www.dogecloud.com/?iuid=11702'
-      },
+      // {
+      //   label: '多吉云',
+      //   message: 'CDN',
+      //   color: 'lightblue',
+      //   alt: '多吉云CDN',
+      //   href: 'https://www.dogecloud.com/?iuid=11702'
+      // },
       {
         label: '十年之约',
         message: '',

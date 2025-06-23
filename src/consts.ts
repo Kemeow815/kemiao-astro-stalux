@@ -12,7 +12,7 @@ export const site: SiteConfig = {
   /**
    * SEO 核心配置
    */
-  description: '克喵的博客',
+  description: '或许，这对我们来说，只是一个选择。',
   url: 'https://blog.050815.xyz',
   keywords: 'Stalux, 博客, 克喵, Astro',
   lang: 'zh-CN',
@@ -32,7 +32,7 @@ export const site: SiteConfig = {
         <script>console.log("喵落阁")</script>`,
 
   /**
-   * 站点导航配置
+   * 站点导航配置 图标来自: https://feathericons.com
    */
   nav: [
     { title: '首页', path: '/', icon: 'home' },
@@ -40,6 +40,8 @@ export const site: SiteConfig = {
     { title: '分类', path: '/categories', icon: 'folder' },
     { title: '标签', path: '/tags', icon: 'tag' },
     { title: '友链', path: '/links', icon: 'link' },
+    { title: '朋友圈', path: 'https://pyq.kemiao.online', icon: 'message-circle' },
+    { title: '相册', path: 'https://photo.kemiao.xyz', icon: 'camera' },
     { title: '关于', path: '/about', icon: 'user' }
   ],
 
