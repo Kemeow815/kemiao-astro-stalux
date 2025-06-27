@@ -40,7 +40,7 @@ export const site: SiteConfig = {
     { title: '标签', path: '/tags', icon: 'tag' },
     { title: '友链', path: '/links', icon: 'link' },
     { title: '朋友圈', path: 'https://pyq.kemiao.online', icon: 'message-circle' },
-    { title: '相册', path: 'https://photo.kemeow.top', icon: 'camera' },
+    { title: '相册', path: 'https://photos.050815.xyz', icon: 'camera' },
     { title: '关于', path: '/about', icon: 'user' }
   ],
 
